@@ -488,9 +488,7 @@ body {
         font-size: 18px; /* Adjust the font size for smaller screens */
     }
 
-    .CV {
-        display: none; /* Hide the CV button on smaller screens */
-    }
+
 
     .Research, .patent, .ResearchProjects {
         height: auto; /* Adjust the height for smaller screens */
