@@ -460,3 +460,81 @@ body {
 }
 
 
+@media (max-width: 768px) {
+    /* Responsive styles for screens up to 768px wide */
+
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+        
+    }
+
+    .navbar li {
+        /* padding: 10px; */
+        font-size: 18px;
+        
+    }
+
+    .banner {
+        height: 200px; /* Adjust the height for smaller screens */
+    }
+
+    .profile img {
+        width: 150px; /* Adjust the width for smaller screens */
+        height: 150px; /* Adjust the height for smaller screens */
+    }
+
+    .Title, .Sub {
+        font-size: 18px; /* Adjust the font size for smaller screens */
+    }
+
+    .CV {
+        display: none; /* Hide the CV button on smaller screens */
+    }
+
+    .Research, .patent, .ResearchProjects {
+        height: auto; /* Adjust the height for smaller screens */
+        flex-direction: column;
+    }
+
+
+
+    .patentList {
+        overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+        margin: 10px; /* Add some margin to prevent leaking */
+    }
+
+    .assignInt {
+        height: auto; /* Adjust the height for smaller screens */
+        flex-direction: row;
+        
+    }
+
+    .Ed {
+        flex-direction: row;
+        margin-left: 20px; /* Adjust the margin for smaller screens */
+        margin-right: 20px; /* Adjust the margin for smaller screens */
+    }
+
+ 
+
+    .edu li {
+        margin-left: 20px; /* Adjust the margin for smaller screens */
+        margin-right: 20px; /* Adjust the margin for smaller screens */
+    }
+    body{
+        zoom:60%;
+    }
+   
+
+    .adm{
+         padding-right:50px;
+    }
+    .assignInt div{
+        margin-right: 30px;;
+    }
+    .Ed h2{
+        margin-left: 40px; /* Adjust the margin for smaller screens */
+    }
+}
+
